@@ -7,9 +7,9 @@
     justify-content: center; /* justifying center */
 }
 .flex-item {
-    background: red;
+    background: tomato;
     margin: 5px;
-    color: darkgrey;
+    color: white;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
