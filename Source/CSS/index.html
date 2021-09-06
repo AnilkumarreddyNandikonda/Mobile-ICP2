@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Home Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="newstyle.css    " type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<ul id="nav-bar">
+    <li><a class="nav-bar-opacity" href="#">Gmail</a></li>
+    <li><a class="nav-bar-opacity" href="#">Images</a></li>
+    <li><a href="#">
+        <div class="nav-bar-opacity" id="menu-icon"></div>
+    </a></li>
+
+    <!-- Add the notifications icon and your
+    image in the corner of the page and the recently opened tabs below the search bars of Google
+    Adding my image in the right top of the page -->
+    <li>
+        <a href="#" class="nav-bar-opacity">
+            <img src="Images/my1.jpg" style="height:25px;"></a>
+    <li>
+
+    <!-- Adding the notification image beside the image. -->
+    <li>
+        <a href="#" class="nav-bar-opacity">
+            <img src="Images/icon.jpeg" style="height:25px;"></a>
+    </li>
+        <button id="sign-in"><a href="#" id="sign-in-text">Sign in</a></button>
+    </li>
+</ul>
+
+<div class="main-content">
+    <div id="logo">
+        <img alt="Google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div id="search-bar">
+        <label>
+            <input name="search" type="text">
+        </label>
+        <a href="#" id="speech-link"><img
+                alt="Speech icon"
+                src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365"></a>
+    </div>
+    <div class="buttons">
+        <button name="Google-Search" style="opacity: 0.5;">Google Search</button>
+        <button name="Feeling-Lucky" style="opacity: 0.5;">I'm Feeling Lucky</button>
+    </div>
+    <!-- As a part of CSS task adding the most recent opened tabs -->
+
+    <!--Here I have implemented a container and created  -->
+
+    <div class="flex-container">
+        <div class="flex-item">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <img src="Images/gmail.jpg" alt="w3schools" style="width:50px;height:30px;">
+                <span style="font-size: 10px;color: black">w3schools</span>
+            </a>
+        </div>
+        <div class="flex-item">
+            <a href="https://github.com/" target="_blank">
+                <img src="Images/github.jpg" alt="github" style="width:50px;height:30px;">
+                <span style="font-size: 10px;color: black">Github</span>
+            </a>
+        </div>
+        <div class="flex-item">
+            <a href="https://www.google.com/" target="_blank">
+                <img src="Images/google.jpg" alt="gmail" style="width:50px;height:30px;">
+                <span style="font-size: 10px;color: black">Gmail</span>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+</body>
+<footer>
+    <div class="bottom-nav">
+        <ul class="ul-left">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <ul class="ul-right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+
+        </ul>
+    </div>
+</footer>
+</html>
